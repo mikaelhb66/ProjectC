@@ -64,6 +64,82 @@ elif opcao == "Projeto Acadêmico":
     st.image("Tela02.png")
     st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
 
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela03.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela04.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela05.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela06.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela07.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela08.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela09.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela10.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela11.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela12.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela14.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela16.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela17.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela19.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela20.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela21.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela22.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela23.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela24.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
+
 # ==============================
 # 👨‍💻 QUEM SOU EU
 # ==============================
