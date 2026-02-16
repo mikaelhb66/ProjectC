@@ -12,6 +12,14 @@ opcao = st.sidebar.radio(
      "Projeto Acadêmico")
 )
 
+# 1️⃣ Bem Vindo
+if opcao == "Bem Vindo":
+    st.title("👨‍💻 Bem Vindo")
+    st.write("""
+    Bem Vindo, espero que esteja tudo bem, nesle local você ira conhecer um pouco mais sobre min e minhas capacidades. 
+    Selecione no menu ao lado esquerdo a opção que desejar , é um prazer telo(a) por aqui.          
+    """)
+
 # 1️⃣ Quem sou eu
 if opcao == "Quem sou eu":
     st.title("👨‍💻 Quem sou eu")
