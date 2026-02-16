@@ -6,7 +6,8 @@ st.set_page_config(page_title="Portfólio Acadêmico", layout="wide")
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
     "Escolha uma opção:",
-    ("Quem sou eu",
+    ("Bem-Vindo",
+     "Quem sou eu",
      "Competências",
      "Certificações",
      "Experiência",
