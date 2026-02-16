@@ -13,7 +13,7 @@ opcao = st.sidebar.radio(
 # ==============================
 # 🔹 TELA INICIAL (AUTOMÁTICA)
 # ==============================
-if opcao == "":
+if opcao is None:
     st.title("👋 Seja Bem-Vindo")
 
     st.write("""
