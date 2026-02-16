@@ -2,11 +2,11 @@ import streamlit as st
 
 st.set_page_config(page_title="Portfólio Acadêmico", layout="wide")
 
-# MENU LATERAL (sem Bem-vindo)
+# MENU LATERAL (Projeto Acadêmico primeiro)
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
     "Escolha uma opção:",
-    ["Quem sou eu", "Competências", "Certificações", "Experiência", "Projeto Acadêmico"],
+    ["Projeto Acadêmico", "Quem sou eu", "Competências", "Certificações", "Experiência"],
     index=None
 )
 
@@ -32,6 +32,37 @@ if opcao is None:
     Atuar na área de tecnologia com foco em desenvolvimento
     de sistemas e soluções voltadas ao mercado financeiro.
     """)
+
+# ==============================
+# 🚀 PROJETO ACADÊMICO
+# ==============================
+elif opcao == "Projeto Acadêmico":
+    st.title("🚀 Projeto Acadêmico")
+
+    st.write("""
+    Sistema desenvolvido como projeto acadêmico com foco em
+    organização, estruturação de interface e aplicação prática
+    dos conceitos aprendidos durante o curso.
+    """)
+
+    st.markdown("---")
+
+    # 🎥 VÍDEO COM TÍTULO E DESCRIÇÃO
+    st.subheader("🎥 Demonstração em Vídeo")
+    st.write("Veja abaixo um vídeo demonstrativo do funcionamento do sistema, destacando suas principais funcionalidades.")
+    st.video("https://youtu.be/seu_link_aqui")
+    st.write("O vídeo mostra a navegação pelo sistema, incluindo telas de cadastro, consulta e relatórios, ilustrando a experiência completa do usuário.")
+
+    st.markdown("---")
+
+    # 🖼️ IMAGENS COM TÍTULO E DESCRIÇÃO
+    st.subheader("🖼️ Tela Inicial do Sistema")
+    st.image("Tela01.png")
+    st.write("Essa é a tela inicial do sistema, mostrando o menu principal e a navegação inicial para o usuário.")
+
+    st.subheader("🖼️ Tela de Funcionalidades")
+    st.image("Tela02.png")
+    st.write("Aqui é apresentada a tela de funcionalidades, destacando as principais ações que o usuário pode realizar dentro do sistema.")
 
 # ==============================
 # 👨‍💻 QUEM SOU EU
@@ -72,17 +103,3 @@ elif opcao == "Certificações":
 elif opcao == "Experiência":
     st.title("💼 Experiência")
     st.write("Descrição da sua experiência profissional.")
-
-# ==============================
-# 🚀 PROJETO ACADÊMICO
-# ==============================
-elif opcao == "Projeto Acadêmico":
-    st.title("🚀 Projeto Acadêmico")
-    st.write("Descrição do projeto desenvolvido.")
-
-    st.subheader("🎥 Vídeo Demonstrativo")
-    st.video("https://youtu.be/seu_link_aqui")
-
-    st.subheader("🖼️ Imagens do Projeto")
-    st.image("Tela01.png")
-    st.image("Tela02.png")
