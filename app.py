@@ -84,5 +84,5 @@ elif opcao == "Projeto Acadêmico":
     st.video("https://youtu.be/seu_link_aqui")
 
     st.subheader("🖼️ Imagens do Projeto")
-    st.image("tela01.png")
-    st.image("tela02.png")
+    st.image("Tela01.png")
+    st.image("Tela02.png")
