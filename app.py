@@ -2,6 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Portfólio Acadêmico", layout="wide")
 
+# Menu lateral
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
     "Escolha uma opção:",
@@ -12,16 +13,21 @@ opcao = st.sidebar.radio(
      "Projeto Acadêmico")
 )
 
-# 1️⃣ Bem Vindo
-if opcao == "Bem Vindo":
-    st.title("👨‍💻 Bem Vindo")
+# 🔹 Mensagem padrão (sempre aparece primeiro)
+if opcao is None:
+    st.title("👋 Seja Bem-Vindo")
     st.write("""
-    Bem Vindo, espero que esteja tudo bem, nesle local você ira conhecer um pouco mais sobre min e minhas capacidades. 
-    Selecione no menu ao lado esquerdo a opção que desejar , é um prazer telo(a) por aqui.          
+    Seja bem-vindo ao meu portfólio acadêmico.
+
+    Neste ambiente você poderá conhecer um pouco mais sobre mim,
+    minhas competências, certificações e projetos desenvolvidos.
+
+    Utilize o menu ao lado esquerdo para navegar.
+    É um prazer tê-lo(a) por aqui.
     """)
 
 # 1️⃣ Quem sou eu
-if opcao == "Quem sou eu":
+elif opcao == "Quem sou eu":
     st.title("👨‍💻 Quem sou eu")
     st.write("""
     Sou estudante de Análise e Desenvolvimento de Sistemas (3º semestre),
