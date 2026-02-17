@@ -6,7 +6,7 @@ st.set_page_config(page_title="Apresentando Mikael", layout="wide")
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
     "Escolha uma opção:",
-    ["Projeto Acadêmico", "Quem sou eu", "Competências", "Certificações", "Experiência"],
+    ["Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência"],
     index=None
 )
 
