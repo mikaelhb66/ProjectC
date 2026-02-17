@@ -40,11 +40,7 @@ elif opcao == "Projeto Acadêmico":
     st.title("🚀 Projeto Acadêmico")
 
     st.write("""
-    Sistema desenvolvido como projeto acadêmico com foco em
-    organização, estruturação de interface e aplicação prática
-    dos conceitos aprendidos durante o curso. Durante o desenvolvimento, 
-    utilizei ferramentas de inteligência artificial para auxiliar em algumas 
-    partes do código, garantindo mais eficiência e explorando boas práticas de programação."
+    Estudante de Análise e Desenvolvimento de Sistemas (3º semestre), com conhecimentos em lógica de programação, banco de dados e análise de dados. Certificado CPA-20 (ANBIMA) e em processo de migração para C-Pro R, agregando visão de mercado financeiro e produtos de investimento. Perfil analítico, organizado e orientado à solução de problemas, com interesse em atuar em tecnologia aplicada ao setor financeiro.."
     """)
 
     st.markdown("---")
