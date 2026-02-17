@@ -186,7 +186,7 @@ elif opcao == "Certificações":
 
     # Certificação 5
     st.subheader("CPA")
-    st.image("Certi (0)png")
+    st.image("Certi (0).png")
     st.write("Processo Migração em andamento — ANBIMA | Sorocaba/SP — 2026")
 
     # Certificação 6
