@@ -17,20 +17,19 @@ if opcao is None:
     st.title("👋 Seja Bem-Vindo")
 
     st.write("""
-    Seja bem-vindo ao meu portfólio acadêmico.
+    Aqui você poderá conhecer minhas competências, certificações e projetos desenvolvidos durante
+    minha formação em Análise e Desenvolvimento de Sistemas (3º semestre), demonstrando minhas
+    habilidades em desenvolvimento de sistemas, análise de dados e soluções tecnológicas.
 
-    Aqui você poderá conhecer minhas competências,
-    certificações e projetos desenvolvidos durante
-    minha formação em Análise e Desenvolvimento de Sistemas.
-
-    Utilize o menu lateral para navegar.
+    Navegue pelo menu lateral para explorar minhas capacidades.
     """)
 
     st.markdown("---")
     st.subheader("🎯 Objetivo Profissional")
     st.write("""
-    Atuar na área de tecnologia com foco em desenvolvimento
-    de sistemas e soluções voltadas ao mercado financeiro.
+    Atuar na área de tecnologia, com foco em desenvolvimento de sistemas e soluções voltadas ao
+    mercado financeiro, aplicando conhecimentos técnicos, boas práticas de programação e inovação
+    em projetos.
     """)
 
 # ==============================
@@ -40,7 +39,11 @@ elif opcao == "Projeto Acadêmico":
     st.title("🚀 Projeto Acadêmico")
 
     st.write("""
-    Estudante de Análise e Desenvolvimento de Sistemas (3º semestre), com conhecimentos em lógica de programação, banco de dados e análise de dados. Certificado CPA-20 (ANBIMA) e em processo de migração para C-Pro R, agregando visão de mercado financeiro e produtos de investimento. Perfil analítico, organizado e orientado à solução de problemas, com interesse em atuar em tecnologia aplicada ao setor financeiro.."
+    Sistema desenvolvido como projeto acadêmico com foco em
+    organização, estruturação de interface e aplicação prática
+    dos conceitos aprendidos durante o curso. Durante o desenvolvimento, 
+    utilizei ferramentas de inteligência artificial para auxiliar em algumas 
+    partes do código, garantindo mais eficiência e explorando boas práticas de programação."
     """)
 
     st.markdown("---")
@@ -141,18 +144,27 @@ elif opcao == "Quem sou eu":
     st.title("👨‍💻 Quem sou eu & 💡 Competências")
     
     st.write("""
-    Sou estudante de **Análise e Desenvolvimento de Sistemas**, com interesse em tecnologia aplicada ao mercado financeiro.
+    Estudante de Análise e Desenvolvimento de Sistemas (3º semestre), com conhecimentos em lógica de programação, banco de dados e análise de dados. Certificado CPA-20 (ANBIMA) e em processo de migração para C-Pro R, agregando visão de mercado financeiro e produtos de investimento. Perfil analítico, organizado e orientado à solução de problemas, com interesse em atuar em tecnologia aplicada ao setor financeiro.
     """)
     
-    st.write("Minhas principais competências incluem:")
+    st.write("Competências Técnicas:")
     st.write("""
-    - **Python** – desenvolvimento de scripts, automações e projetos.  
-    - **Lógica de programação** – resolução de problemas e implementação de algoritmos eficientes.  
-    - **Banco de dados** – manipulação e consulta de dados com SQL.  
-    - **Análise de dados** – interpretação e organização de informações para tomada de decisão.  
-    - **Matemática financeira** – cálculos aplicados a investimentos e produtos financeiros.  
+    - Lógica de programação  
+    - Noções de desenvolvimento de sistemas 
+    - Banco de dados (nível básico/intermediário)
+    - Análise de dados com Python
+    - Fundamentos de mercado financeiro
+    - Matemática financeira
     """)
 
+    st.write("Competências Comportamentais:")
+    st.write("""
+    - Pensamento analítico.  
+    - Organização e gestão de rotina.  
+    - Comunicação profissional.  
+    - Trabalho em equipe.  
+    - Proatividade e aprendizado contínuo.  
+    """)
 
 # ==============================
 # 📜 CERTIFICAÇÕES
