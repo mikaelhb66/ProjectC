@@ -138,7 +138,7 @@ elif opcao == "Projeto Acadêmico":
 # ==============================
 # 👨‍💻 QUEM SOU EU
 # ==============================
-elif opcao == "Quem sou eu?":
+elif opcao == "Quem sou eu":
     st.title("👨‍💻 Olá! Sou Mikael, 23 anos – prazer em conhecê-lo(a)")
     
     st.write("""
