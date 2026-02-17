@@ -6,8 +6,7 @@ st.set_page_config(page_title="Apresentando Mikael", layout="wide")
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
     "Escolha uma opção:",
-    ["Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência"],
-    index=None
+    ["Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"],
 )
 
 # ==============================
@@ -255,3 +254,18 @@ elif opcao == "Experiência":
    Montagem e separação de pedidos para entregas domiciliares, conforme solicitações on-line e presenciais.
    Apoio ao caixa na identificação de preços, evitando atrasos no atendimento.
     """)
+
+
+
+# ==============================
+# 💼 Obrigado
+# ==============================
+elif opcao == "Obrigado":
+    st.title("🙏 Obrigado")
+
+    st.write("""
+    Agradeço por dedicar seu tempo para conhecer meu portfólio e minhas certificações.
+    Espero que as informações apresentadas possam demonstrar minhas habilidades, dedicação
+    e interesse em continuar aprendendo e desenvolvendo soluções tecnológicas.
+    """)
+    st.image("Adeus.png")  # imagem da certificação
