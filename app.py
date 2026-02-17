@@ -171,7 +171,7 @@ elif opcao == "Certificações":
 
     # Certificação 2
     st.subheader("Matemática Financeira para Análise de Riscos")
-    st.image("Certi (2)png")
+    st.image("Certi (2).png")
     st.write("Faculdade Anhanguera | Sorocaba/SP — 2025")
 
     # Certificação 3
