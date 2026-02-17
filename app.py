@@ -38,18 +38,17 @@ elif opcao == "Projeto Acadêmico":
     st.title("🚀 Projeto Acadêmico")
 
     st.write("""
-    Sistema desenvolvido como projeto acadêmico com foco em
-    organização, estruturação de interface e aplicação prática
-    dos conceitos aprendidos durante o curso. Durante o desenvolvimento, 
-    utilizei ferramentas de inteligência artificial para auxiliar em algumas 
-    partes do código, garantindo mais eficiência e explorando boas práticas de programação."
+    Sistema desenvolvido como projeto acadêmico, com foco em organização, 
+    estruturação de interface e aplicação prática dos conceitos aprendidos durante o curso. 
+    Durante o desenvolvimento, utilizei ferramentas de inteligência artificial para otimizar partes do código, 
+    garantindo eficiência, consistência e aderência às melhores práticas de programação.
     """)
 
     st.markdown("---")
 
     # 🎥 VÍDEO COM TÍTULO E DESCRIÇÃO
     st.subheader("🎥 Demonstração em Vídeo")
-    st.write("Veja abaixo um vídeo demonstrativo do funcionamento do sistema, destacando suas principais funcionalidades.")
+    st.write("Veja abaixo um vídeo demonstrativo do funcionamento do sistema.")
     st.video("https://youtu.be/seu_link_aqui")
     st.write("O vídeo mostra a navegação pelo sistema, incluindo telas de cadastro, consulta e relatórios, ilustrando a experiência completa do usuário.")
 
@@ -66,7 +65,7 @@ elif opcao == "Projeto Acadêmico":
 
     st.subheader("🖼️ Versão Interface")
     st.image("Tela03.png")
-    st.write("Implementei uma interface inicial, demonstrando capacidade de transformar programas de console em soluções com interação visual..")
+    st.write("Implementei uma interface inicial, demonstrando capacidade de transformar programas de console em soluções com interação visual.")
 
     st.subheader("🖼️ Versão Final")
     st.image("Tela04.png")
@@ -90,7 +89,7 @@ elif opcao == "Projeto Acadêmico":
 
     st.subheader("🖼️ Funcionalidades Web")
     st.image("Tela09.png")
-    st.write("Nessa situação eu começei a mecher com javascrip para fazer as funcionalidaes da versão Web.")
+    st.write("Nessa fase, iniciei o desenvolvimento de funcionalidades em JavaScript para a versão web do sistema.")
 
     st.subheader("🖼️ Funcionalidade ")
     st.image("Tela10.png")
@@ -98,7 +97,7 @@ elif opcao == "Projeto Acadêmico":
 
     st.subheader("🖼️ Funcionalidade Cadastro")
     st.image("Tela11.png")
-    st.write("Desenvolvi a tela de cadastro, aplicando validações e garantindo consistência de dados.")
+    st.write("Desenvolvi a tela de cadastro aplicando validações de entrada e garantindo a consistência e integridade dos dados.")
 
     st.subheader("🖼️ Funcionalidade consulta ")
     st.image("Tela12.png")
@@ -106,41 +105,41 @@ elif opcao == "Projeto Acadêmico":
 
     st.subheader("🖼️ Google Shell Editor")
     st.image("Tela16.png")
-    st.write("Utilizei ferramentas avançadas de edição e execução de código, otimizando o processo de desenvolviment")
+    st.write("Utilizei o Google Shell Editor como ambiente de execução em nuvem, permitindo rodar o sistema em máquinas com limitações de recursos, garantindo continuidade no desenvolvimento, testes e validação das funcionalidades.")
 
-    st.subheader("🖼️ Rodar em Sistema mas como?")
+    st.subheader("🖼️ Rodar em Sistema limitado")
     st.image("Tela17.png")
     st.write("Configurei o projeto para rodar em sistemas Linux utilizando Docker, garantindo compatibilidade e isolamento do ambiente de desenvolvimento.")
 
     st.subheader("🖼️ Rodanddo em maquina virtual")
     st.image("Tela19.png")
-    st.write("Implementei testes do projeto em uma máquina virtual, validando a portabilidade do software e o correto funcionamento em diferentes ambientes..")
+    st.write("Implementei testes do projeto em uma máquina virtual, validando a portabilidade do software e o correto funcionamento em diferentes ambientes.")
 
-    st.subheader("🖼️ Funciona e podemos ver rodando")
+    st.subheader("🖼️ Consistência e Integridade")
     st.image("Tela20.png")
-    st.write("Realizei a execução do projeto, confirmando o funcionamento das funcionalidades implementadas e a estabilidade do sistema..")
+    st.write("Realizei a execução do projeto, confirmando o funcionamento das funcionalidades implementadas e a estabilidade do sistema.")
 
-    st.subheader("🖼️ Testando versão Web ")
+    st.subheader("🖼️ IGarantia de Integridade no Ambiente Web ")
     st.image("Tela21.png")
     st.write("Adaptei e testei o sistema em ambiente web, integrando funcionalidades front-end com Python e JavaScript para garantir acessibilidade e usabilidade.")
 
-    st.subheader("🖼️ Navegador web")
+    st.subheader("🖼️ Validação no Navegador Web")
     st.image("Tela22.png")
-    st.write("Validei a execução do projeto em navegadores, garantindo experiência consistente para o usuário final..")
+    st.write("realizei testes no navegador Firefox em ambiente móvel virtualizado, assegurando compatibilidade, estabilidade e experiência consistente da interface para o usuário final.")
 
-    st.subheader("🖼️ Está funcionando")
+    st.subheader("🖼️ Funcionalidade Confirmada")
     st.image("Tela23.png")
-    st.write("Confirmei que todas as funcionalidades do sistema estão operando corretamente em diferentes plataformas e navegadores.")
+    st.write("Todas as funcionalidades do sistema foram validadas e estão operando corretamente em múltiplas plataformas e navegadores, assegurando confiabilidade e consistência.")
 
-    st.subheader("🖼️ Final , Estudo e trabalho duro valeu a pena")
+    st.subheader("🖼️ Conclusão e Resultados")
     st.image("Tela24.png")
-    st.write("O projeto final demonstra evolução técnica, dedicação e aprendizado contínuo, evidenciando habilidades em programação Python, desenvolvimento web, integração de interfaces gráficas e uso de Docker para ambientes isolados e multiplataforma.")
+    st.write("O projeto final reflete habilidades completas de desenvolvimento full stack, incluindo Python, JavaScript, design de interfaces, integração de sistemas e uso de Docker para ambientes isolados e multiplataforma. Demonstra evolução técnica, dedicação e capacidade de entregar soluções completas e funcionais.")
 
 # ==============================
 # 👨‍💻 QUEM SOU EU
 # ==============================
-elif opcao == "Quem sou eu":
-    st.title("👨‍💻 Quem sou eu & 💡 Competências")
+elif opcao == "Quem sou eu?":
+    st.title("👨‍💻 Olá! Sou X, 23 anos – prazer em conhecê-lo(a)")
     
     st.write("""
     Estudante de Análise e Desenvolvimento de Sistemas (3º semestre), com conhecimentos em lógica de programação, banco de dados e análise de dados. Certificado CPA-20 (ANBIMA) e em processo de migração para C-Pro R, agregando visão de mercado financeiro e produtos de investimento. Perfil analítico, organizado e orientado à solução de problemas, com interesse em atuar em tecnologia aplicada ao setor financeiro.
@@ -148,12 +147,12 @@ elif opcao == "Quem sou eu":
     
     st.write("Competências Técnicas:")
     st.write("""
-    - Lógica de programação  
-    - Noções de desenvolvimento de sistemas 
-    - Banco de dados (nível básico/intermediário)
-    - Análise de dados com Python
-    - Fundamentos de mercado financeiro
-    - Matemática financeira
+    - Lógica de programação.  
+    - Noções de desenvolvimento de sistemas.
+    - Banco de dados (nível básico/intermediário).
+    - Análise de dados com Python.
+    - Fundamentos de mercado financeiro.
+    - Matemática financeira.
     """)
 
     st.write("Competências Comportamentais:")
@@ -254,8 +253,6 @@ elif opcao == "Experiência":
    Montagem e separação de pedidos para entregas domiciliares, conforme solicitações on-line e presenciais.
    Apoio ao caixa na identificação de preços, evitando atrasos no atendimento.
     """)
-
-
 
 # ==============================
 # 💼 Obrigado
