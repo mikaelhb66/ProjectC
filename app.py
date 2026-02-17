@@ -202,37 +202,48 @@ elif opcao == "Experiência":
     st.title("💼 Experiência Profissional")
 
     # Experiência 1
-    st.subheader("Estagiário em Desenvolvimento de Sistemas")
+    st.subheader("BENASSI SP | Sorocaba/SP — PROMOTOR HORTIFRÚTI — 04/2024 a 01/2026")
     st.image("Exp (1).png")  # imagem/logo da empresa
     st.write("""
-    Empresa XYZ | Sorocaba/SP — 2024  
-    - Desenvolvimento de scripts em Python para automação de processos internos  
-    - Participação em projetos de análise de dados e banco de dados  
-    - Colaboração em equipe ágil e documentação de sistemas
+   Atuação predominante no turno da madrugada, com apoio eventual no período da manhã.
+   Responsável pelo recebimento e descarregamento de caminhões, conferência de mercadorias.
+   Conferência de preços, lançamentos e verificação registros no sistema, assegurando conformidade.
+   Execução de precificação de produtos, criação de ofertas e elaboração de cartazes físicos.
+   Atendimento ao cliente no salão de vendas.
+   Apoio à segurança patrimonial e participação nos processos de abertura e fechamento da loja.
+   Montagem, padronização e organização de bancas de hortifrúti, seguindo critérios de exposição, qualidade e giro de produtos.
+   Preparação do layout de exposição e reposição estratégica, garantindo apresentação visual e acessibilidade conforme padrões da loja.
     """)
 
     # Experiência 2
-    st.subheader("Auxiliar de TI")
+    st.subheader("Princesa Supermercado Cosméticos | Sorocaba/SP — ESTOQUISTA (Temporário) — 09/2023 a 01/2024")
     st.image("Exp (3).png")
     st.write("""
-    Empresa ABC | Sorocaba/SP — 2023  
-    - Suporte técnico a usuários internos  
-    - Manutenção de computadores e redes  
-    - Configuração de softwares e treinamento de colaboradores
+   Responsável pela organização e controle de estoque, com realização de contagens periódicas e conferência sistêmica, identificando divergências e reportando à gerência para tomada de ações corretivas.
+   Execução de etiquetagem e codificação de produtos, com verificação de códigos de barras e atualização de registros.
+   Controle de vencimentos, perdas e avarias, assegurando conformidade dos produtos armazenados.
+   Padronização e melhoria da organização de prateleiras, com alinhamento e comunicação junto à equipe.
+   Apoio à segurança patrimonial e participação nos processos de abertura e fechamento da loja.
     """)
 
     # Experiência 3 (opcional)
-    st.subheader("Projeto Freelancer em Python")
+    st.subheader("Higa Atacadista | Sorocaba/SP — REPOSITOR DE MERCADORIAS — 11/2022 a 05/2023")
     st.image("Exp (4).png")
     st.write("""
-    Desenvolvimento de scripts e pequenas aplicações para clientes, com foco em automação e análise de dados.  
-    Aprimoramento de habilidades em Python, Tkinter, Pandas e integração com Excel.
+   Atuação em reposição e organização de mercadorias em gôndolas, ilhas e pontos extras, conforme giro e validade dos produtos.
+   Organização de prateleiras e expositores, facilitando acesso aos itens de maior saída.
+   Atualização e troca de etiquetas de preços conforme orientações de precificação.
+   Verificação de prazos de validade e substituição de produtos fora do padrão.
+   Organização de carrinhos, paletes e plataformas, garantindo circulação adequada e padrão visual da loja.
+   Apoio ao atendimento ao cliente, com consulta ao estoque para localização de produtos.
     """)
 
     # Experiência 3 (opcional)
-    st.subheader("Projeto Freelancer em Python")
+    st.subheader("Supermercado Tauste | Sorocaba/SP — EMPACOTADOR — 01/2022 a 10/2022")
     st.image("Exp (2).png")
     st.write("""
-    Desenvolvimento de scripts e pequenas aplicações para clientes, com foco em automação e análise de dados.  
-    Aprimoramento de habilidades em Python, Tkinter, Pandas e integração com Excel.
+   Apoio ao empacotamento de mercadorias, com separação por categoria e preservação da integridade dos produtos.
+   Auxílio aos clientes no transporte de compras até veículos no estacionamento.
+   Montagem e separação de pedidos para entregas domiciliares, conforme solicitações on-line e presenciais.
+   Apoio ao caixa na identificação de preços, evitando atrasos no atendimento.
     """)
