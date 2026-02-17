@@ -6,13 +6,13 @@ st.set_page_config(page_title="Apresentando Mikael", layout="wide")
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
     "Escolha uma opção:",
-    ["Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"],
+    ["Seja Bem-Vindo","Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"],
 )
 
 # ==============================
 # 🔹 TELA INICIAL (AUTOMÁTICA)
 # ==============================
-if opcao is None:
+if opcao == "Seja Bem-Vindo":
     st.title("👋 Seja Bem-Vindo")
 
     st.write("""
