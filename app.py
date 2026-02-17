@@ -139,7 +139,7 @@ elif opcao == "Projeto Acadêmico":
 # 👨‍💻 QUEM SOU EU
 # ==============================
 elif opcao == "Quem sou eu?":
-    st.title("👨‍💻 Olá! Sou X, 23 anos – prazer em conhecê-lo(a)")
+    st.title("👨‍💻 Olá! Sou Mikael, 23 anos – prazer em conhecê-lo(a)")
     
     st.write("""
     Estudante de Análise e Desenvolvimento de Sistemas (3º semestre), com conhecimentos em lógica de programação, banco de dados e análise de dados. Certificado CPA-20 (ANBIMA) e em processo de migração para C-Pro R, agregando visão de mercado financeiro e produtos de investimento. Perfil analítico, organizado e orientado à solução de problemas, com interesse em atuar em tecnologia aplicada ao setor financeiro.
