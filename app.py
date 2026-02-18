@@ -265,4 +265,4 @@ elif opcao == "Obrigado":
     Espero que as informações apresentadas possam demonstrar minhas habilidades, dedicação
     e interesse em continuar aprendendo e desenvolvendo soluções tecnológicas.
     """)
-    st.image("Adeus.png")  # imagem da certificação
+    st.image("Adeus1.png")  # imagem da certificação
