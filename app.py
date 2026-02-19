@@ -49,7 +49,7 @@ elif opcao == "Projeto Acadêmico":
     # 🎥 VÍDEO COM TÍTULO E DESCRIÇÃO
     st.subheader("🎥 Demonstração em Vídeo")
     st.write("Veja abaixo um vídeo demonstrativo do funcionamento do sistema.")
-    st.video("https://youtu.be/jUsPX_EJUO0")
+    st.video("https://youtu.be/HtYt54H6uNQ")
     st.write("O vídeo mostra a navegação pelo sistema, incluindo telas de cadastro, consulta e relatórios, ilustrando a experiência completa do usuário.")
 
     st.markdown("---")
