@@ -99,7 +99,7 @@ elif opcao == "Projeto Acadêmico":
     st.image("Tela11.png")
     st.write("Desenvolvi a tela de cadastro aplicando validações de entrada e garantindo a consistência e integridade dos dados.")
 
-16gLaJKcDHVHbccbo9ayPsopB6gA1pZB888m8q6g2T8x6kBm
+    st.subheader("🖼️ DS")
     st.image("Tela12.png")
     st.write("Implementei consultas dinâmicas, proporcionando acesso rápido a informações armazenadas.")
 
