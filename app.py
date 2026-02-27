@@ -1,35 +1,70 @@
 import streamlit as st
 
+# Configuração da página
 st.set_page_config(page_title="Apresentando Mikael", layout="wide")
 
-# MENU LATERAL (Projeto Acadêmico primeiro)
+# ==============================
+# 🔹 Definição dos textos
+# ==============================
+textos = {
+    "pt": {
+        "menu": ["Seja Bem-Vindo","Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"],
+        "bem_vindo_titulo": "👋 Seja Bem-Vindo",
+        "bem_vindo_texto": """
+        Aqui você poderá conhecer minhas competências, certificações e projetos desenvolvidos durante
+        minha formação em Análise e Desenvolvimento de Sistemas (3º semestre), demonstrando minhas
+        habilidades em desenvolvimento de sistemas, análise de dados e soluções tecnológicas.
+
+        Navegue pelo menu lateral para explorar minhas capacidades.
+        """,
+        "objetivo_titulo": "🎯 Objetivo Profissional",
+        "objetivo_texto": """
+        Atuar na área de tecnologia, com foco em desenvolvimento de sistemas e soluções voltadas ao
+        mercado financeiro, aplicando conhecimentos técnicos, boas práticas de programação e inovação
+        em projetos.
+        """
+    },
+    "en": {
+        "menu": ["Welcome","Academic Project", "About Me", "Certifications", "Experience", "Thank You"],
+        "bem_vindo_titulo": "👋 Welcome",
+        "bem_vindo_texto": """
+        Here you can explore my skills, certifications, and projects developed during
+        my studies in Systems Analysis and Development (3rd semester), showcasing my
+        abilities in system development, data analysis, and technological solutions.
+
+        Use the sidebar menu to navigate through my capabilities.
+        """,
+        "objetivo_titulo": "🎯 Professional Objective",
+        "objetivo_texto": """
+        Work in the technology field, focusing on system development and solutions for
+        the financial market, applying technical knowledge, programming best practices,
+        and innovation in projects.
+        """
+    }
+}
+
+# ==============================
+# 🔹 Seleção de idioma
+# ==============================
+idioma = st.sidebar.selectbox("🌐 Language / Idioma", ["pt", "en"])
+
+# MENU LATERAL
 st.sidebar.title("📌 Menu")
 opcao = st.sidebar.radio(
-    "Escolha uma opção:",
-    ["Seja Bem-Vindo","Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"],
+    "Escolha uma opção:" if idioma == "pt" else "Choose an option:",
+    textos[idioma]["menu"],
 )
 
 # ==============================
-# 🔹 TELA INICIAL (AUTOMÁTICA)
+# 🔹 TELA INICIAL
 # ==============================
-if opcao == "Seja Bem-Vindo":
-    st.title("👋 Seja Bem-Vindo")
-
-    st.write("""
-    Aqui você poderá conhecer minhas competências, certificações e projetos desenvolvidos durante
-    minha formação em Análise e Desenvolvimento de Sistemas (3º semestre), demonstrando minhas
-    habilidades em desenvolvimento de sistemas, análise de dados e soluções tecnológicas.
-
-    Navegue pelo menu lateral para explorar minhas capacidades.
-    """)
-
+if opcao in ["Seja Bem-Vindo", "Welcome"]:
+    st.title(textos[idioma]["bem_vindo_titulo"])
+    st.write(textos[idioma]["bem_vindo_texto"])
     st.markdown("---")
-    st.subheader("🎯 Objetivo Profissional")
-    st.write("""
-    Atuar na área de tecnologia, com foco em desenvolvimento de sistemas e soluções voltadas ao
-    mercado financeiro, aplicando conhecimentos técnicos, boas práticas de programação e inovação
-    em projetos.
-    """)
+    st.subheader(textos[idioma]["objetivo_titulo"])
+    st.write(textos[idioma]["objetivo_texto"])
+
 
 # ==============================
 # 🚀 PROJETO ACADÊMICO
