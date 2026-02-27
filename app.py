@@ -2,21 +2,12 @@ import streamlit as st
 
 st.set_page_config(page_title="Apresentando Mikael", layout="wide")
 
-# ==============================
-# 🌐 Seleção de idioma
-# ==============================
-idioma = st.sidebar.radio("Escolha o idioma / Choose Language:", ["Português", "English"])
-
-# ==============================
-# 📌 Menu lateral
-# ==============================
-if idioma == "Português":
-    menu = ["Seja Bem-Vindo","Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"]
-else:
-    menu = ["Welcome","Academic Project", "About Me", "Certifications", "Experience", "Thank You"]
-
-opcao = st.sidebar.radio("Escolha uma opção:", menu)
-
+# MENU LATERAL (Projeto Acadêmico primeiro)
+st.sidebar.title("📌 Menu")
+opcao = st.sidebar.radio(
+    "Escolha uma opção:",
+    ["Seja Bem-Vindo","Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"],
+)
 
 # ==============================
 # 🔹 TELA INICIAL (AUTOMÁTICA)
@@ -40,27 +31,6 @@ if opcao == "Seja Bem-Vindo":
     em projetos.
     """)
 
-
-
-else:  # Inglês
-        st.title("👋 Welcome")
-
-        st.write("""
-        Here you can explore my skills, certifications, and projects developed during
-        my studies in Analysis and Systems Development (3rd semester), showcasing my
-        abilities in software development, data analysis, and technological solutions.
-
-        Navigate the sidebar menu to explore my capabilities.
-        """)
-
-        st.markdown("---")
-        st.subheader("🎯 Professional Objective")
-        st.write("""
-        To work in the technology field, focusing on system development and solutions aimed at
-        the financial market, applying technical knowledge, programming best practices, and innovation
-        in projects.
-        """)
-        
 # ==============================
 # 🚀 PROJETO ACADÊMICO
 # ==============================
@@ -129,7 +99,7 @@ elif opcao == "Projeto Acadêmico":
     st.image("Tela11.png")
     st.write("Desenvolvi a tela de cadastro aplicando validações de entrada e garantindo a consistência e integridade dos dados.")
 
-    st.subheader("🖼️ Funcionalidade Consulta")
+    st.subheader("🖼️ Google Shell Editor")
     st.image("Tela12.png")
     st.write("Implementei consultas dinâmicas, proporcionando acesso rápido a informações armazenadas.")
 
