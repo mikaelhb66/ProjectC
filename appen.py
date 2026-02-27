@@ -255,4 +255,5 @@ elif opcao == "Thank You":
     I hope the information presented demonstrates my skills, dedication,
     and interest in continuing to learn and develop technological solutions.
     """)
-    st.image("Adeus2.png")
+
+    st.image("Iseeyouagain.png")
