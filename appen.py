@@ -172,27 +172,27 @@ elif opcao == "Certifications":
 
     st.subheader("Data Analysis with Python")
     st.image("Certi (8).png")
-    st.write("Anhanguera College | Sorocaba/SP — 2025")
+    st.write("40-hour Certification Program Anhanguera University | Sorocaba, SP, Brazil — 2025")
 
     st.subheader("Financial Mathematics for Risk Analysis")
     st.image("Certi (2).png")
-    st.write("Anhanguera College | Sorocaba/SP — 2025")
+    st.write("120-hour Certification ProgramAnhanguera University | Sorocaba, SP, Brazil — 2025")
 
     st.subheader("International Business Planning and Development")
     st.image("Certi (9).png")
-    st.write("Anhanguera College | Sorocaba/SP — 2025")
+    st.write("120-hour Certification ProgramAnhanguera University | Sorocaba, SP, Brazil — 2025")
 
-    st.subheader("CPA-20")
+    st.subheader("ANBIMA Professional Certification – Series 20 (CPA-20)")
     st.image("Certi (6).png")
-    st.write("Certification valid until 01/22/2028 — ANBIMA | Sorocaba/SP — 2025")
+    st.write("ANBIMA (Brazilian Financial and Capital Markets Association)Issued: January 22, 2025 | Sorocaba, SP, Brazil. Valid through: January 22, 2028")
 
-    st.subheader("CPA")
+    st.subheader("ANBIMA Professional Certification (CPA)")
     st.image("Certi (0).png")
-    st.write("Migration process in progress — ANBIMA | Sorocaba/SP — 2026")
+    st.write("Migration process in progress — ANBIMA | Sorocaba, SP, Brazil — 2026")
 
-    st.subheader("C-Pro R")
+    st.subheader("ANBIMA Risk Professionals Certification (C-Pro R)")
     st.image("Certi (0).png")
-    st.write("Migration process in progress — ANBIMA | Sorocaba/SP — 2026")
+    st.write("Migration process in progress — ANBIMA | Sorocaba, SP, Brazil — 2026")
 
 
 # ==============================
@@ -201,7 +201,7 @@ elif opcao == "Certifications":
 elif opcao == "Experience":
     st.title("💼 Professional Experience")
 
-    st.subheader("BENASSI SP | Sorocaba/SP — PRODUCE PROMOTER — 04/2024 to 01/2026")
+    st.subheader("BENASSI SP | Sorocaba, SP, Brazil — PRODUCE PROMOTER — 04/2024 to 01/2026")
     st.image("Exp (1).png")
     st.write("""
    Predominantly worked night shifts, with occasional morning support.
@@ -214,7 +214,7 @@ elif opcao == "Experience":
    Preparation of display layout and strategic replenishment, ensuring visual presentation and accessibility according to store standards.
     """)
 
-    st.subheader("Princesa Supermercado Cosméticos | Sorocaba/SP — STOCK CLERK (Temporary) — 09/2023 to 01/2024")
+    st.subheader("Princesa Supermercado Cosméticos | Sorocaba, SP, Brazil — STOCK CLERK (Temporary) — 09/2023 to 01/2024")
     st.image("Exp (3).png")
     st.write("""
    Responsible for stock organization and control, conducting periodic counts and system checks, identifying discrepancies and reporting to management for corrective action.
@@ -224,7 +224,7 @@ elif opcao == "Experience":
    Support for asset security and participation in store opening and closing processes.
     """)
 
-    st.subheader("Higa Atacadista | Sorocaba/SP — MERCHANDISE STOCKER — 11/2022 to 05/2023")
+    st.subheader("Higa Atacadista | Sorocaba, SP, Brazil — MERCHANDISE STOCKER — 11/2022 to 05/2023")
     st.image("Exp (4).png")
     st.write("""
    Worked in restocking and organizing merchandise on shelves, islands, and promotional areas, according to product turnover and expiration dates.
@@ -235,7 +235,7 @@ elif opcao == "Experience":
    Customer service support, checking stock to locate products.
     """)
 
-    st.subheader("Supermercado Tauste | Sorocaba/SP — BAGGER — 01/2022 to 10/2022")
+    st.subheader("Supermercado Tauste | Sorocaba, SP, Brazil — BAGGER — 01/2022 to 10/2022")
     st.image("Exp (2).png")
     st.write("""
    Assisted in bagging merchandise, separating by category and preserving product integrity.
@@ -257,3 +257,4 @@ elif opcao == "Thank You":
     """)
 
     st.image("Iseeyouagain.png")
+
