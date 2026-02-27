@@ -2,12 +2,31 @@ import streamlit as st
 
 st.set_page_config(page_title="Apresentando Mikael", layout="wide")
 
-# MENU LATERAL (Projeto Acadêmico primeiro)
-st.sidebar.title("📌 Menu")
-opcao = st.sidebar.radio(
-    "Escolha uma opção:",
-    ["Seja Bem-Vindo","Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"],
-)
+# ==============================
+# 🌐 Seleção de idioma
+# ==============================
+idioma = st.sidebar.radio("Escolha o idioma / Choose Language:", ["Português", "English"])
+
+# ==============================
+# 📌 Menu lateral
+# ==============================
+if idioma == "Português":
+    menu = ["Seja Bem-Vindo","Projeto Acadêmico", "Quem sou eu", "Certificações", "Experiência", "Obrigado"]
+else:
+    menu = ["Welcome","Academic Project", "About Me", "Certifications", "Experience", "Thank You"]
+
+opcao = st.sidebar.radio("Escolha uma opção:", menu)
+
+# ==============================
+# 🔹 Tela inicial
+# ==============================
+if opcao == menu[0]:
+    if idioma == "Português":
+        st.title("👋 Seja Bem-Vindo")
+        st.write("Aqui você pode conhecer meu trabalho e minhas experiências.")
+    else:
+        st.title("👋 Welcome")
+        st.write("Here you can explore my work and experiences.")
 
 # ==============================
 # 🔹 TELA INICIAL (AUTOMÁTICA)
