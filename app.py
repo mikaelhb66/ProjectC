@@ -17,16 +17,6 @@ else:
 
 opcao = st.sidebar.radio("Escolha uma opção:", menu)
 
-# ==============================
-# 🔹 Tela inicial
-# ==============================
-if opcao == menu[0]:
-    if idioma == "Português":
-        st.title("👋 Seja Bem-Vindo")
-        st.write("Aqui você pode conhecer meu trabalho e minhas experiências.")
-    else:
-        st.title("👋 Welcome")
-        st.write("Here you can explore my work and experiences.")
 
 # ==============================
 # 🔹 TELA INICIAL (AUTOMÁTICA)
@@ -50,6 +40,27 @@ if opcao == "Seja Bem-Vindo":
     em projetos.
     """)
 
+
+
+else:  # Inglês
+        st.title("👋 Welcome")
+
+        st.write("""
+        Here you can explore my skills, certifications, and projects developed during
+        my studies in Analysis and Systems Development (3rd semester), showcasing my
+        abilities in software development, data analysis, and technological solutions.
+
+        Navigate the sidebar menu to explore my capabilities.
+        """)
+
+        st.markdown("---")
+        st.subheader("🎯 Professional Objective")
+        st.write("""
+        To work in the technology field, focusing on system development and solutions aimed at
+        the financial market, applying technical knowledge, programming best practices, and innovation
+        in projects.
+        """)
+        
 # ==============================
 # 🚀 PROJETO ACADÊMICO
 # ==============================
