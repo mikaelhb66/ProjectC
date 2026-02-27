@@ -99,7 +99,7 @@ elif opcao == "Projeto Acadêmico":
     st.image("Tela11.png")
     st.write("Desenvolvi a tela de cadastro aplicando validações de entrada e garantindo a consistência e integridade dos dados.")
 
-    st.subheader("🖼️ Google Shell Editor")
+    st.subheader("🖼️ Funcionalidade Consulta")
     st.image("Tela12.png")
     st.write("Implementei consultas dinâmicas, proporcionando acesso rápido a informações armazenadas.")
 
